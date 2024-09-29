@@ -1,10 +1,10 @@
 import './global.css';
-import { Button } from "@/components/ui/button";
+import { Routes } from './routes';
 
 export function App() {
   return (
-    <div className="flex justify-center items-center h-screen">
-      <Button>Click me</Button>
-    </div>
+    <>
+      <Routes />
+    </>
   )
 }
